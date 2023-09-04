@@ -1,7 +1,8 @@
 # Imersaoalura-1
-Project follow up from Alura's data imersive course. 
 
-Here you can find out what's up to data analysis around Alura's home tasks develop on their intesive data course through 09/04/2023 & 09/07/2023
+Project follow up from Alura's data imermsive course.
+
+Here you can find out what's up to data analysis around Alura's home tasks developed on their intensive data course through 09/04/2023 & 09/07/2023
 
 ## First Task
 
