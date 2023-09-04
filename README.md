@@ -7,4 +7,4 @@ Here you can find out what's up to data analysis around Alura's home tasks devel
 
 ### Dataset > IMDB Movies Dataset
 
-You can check out the current file and the analysis logic at [IMDB DataSet & Analysis Logic](./Imersaoalura-1/Desafio1/.extensao)
+You can check out the current file and the analysis logic at [IMDB DataSet & Analysis Logic](./Imersaoalura-1/Desafio1.extensao)
