@@ -1,6 +1,6 @@
 # Understading the used Analysis Method
 
-Here's a drill throught of what's the method I'm going to use to analyse the following dataset. I'm also using a 4.0 verion from GPT to help me out understand and do a fully direct analysis. 
+Here's a drill-through of what's the method I'm going to use to analyze the following dataset. I'm also using a 4.0 version from GPT to help me understand and do a fully direct analysis.. 
 
 ## Headers from IMDB DataSet
 
