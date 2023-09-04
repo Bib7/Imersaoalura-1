@@ -7,4 +7,4 @@ Here you can find out what's up to data analysis around Alura's home tasks devel
 
 ### Dataset > IMDB Movies Dataset
 
-You can check out the current file around it at [Aqui está o nome do meu arquivo](./caminho/do/arquivo.extensao) and the analysis logic here [Aqui está o nome do meu arquivo](./caminho/do/arquivo.extensao)
+You can check out the current file around it at [IMDB DataSet](./Imersaolaura-1/imdb_top_1000.csv.extensao) and the analysis logic here [Aqui está o nome do meu arquivo](./caminho/do/arquivo.extensao)
