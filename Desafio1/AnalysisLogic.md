@@ -24,8 +24,8 @@ Here's a drill-through of what's the method I'm going to use to analyze the foll
 
 ### Descriptive Statistics:
 
-- [ ] Calculate mean, median, standard deviation, minimum, and maximum for numerical columns like IMDB_Rating, Meta_score, No_of_Votes, and Gross.
-- [ ] For categorical columns like Certificate, Genre, and Director, determine the frequency of each category.
+- [x] Calculate mean, median, standard deviation, minimum, and maximum for numerical columns like IMDB_Rating, Meta_score, No_of_Votes, and Gross.
+- [x] For categorical columns like Certificate, Genre, and Director, determine the frequency of each category.
 
 
 ### Visualizations:
@@ -56,3 +56,24 @@ Here's a drill-through of what's the method I'm going to use to analyze the foll
 
 ### Outlier Identification:
 - [ ] Use descriptive statistics and visualizations to identify and investigate outliers, especially in columns like IMDB_Rating, Meta_score, and Gross.
+
+### UPDATES & IN-FOLLOW UP
+
+### Investigating Correlation Between IMDB Rating and Gross Earnings:
+
+Objective: Understand if highly rated movies also tend to earn more at the box office.
+
+Context: The dataset focuses on the "Top 1000 IMDB Movies by IMDB Rating," implying a rating-based ranking. Investigate how this rating correlates with financial success.
+
+Steps:
+
+Correlation Analysis: Calculate the correlation coefficient between rating and gross to quantify their relationship.
+Visualization: Plot a scatter plot of rating vs. gross to visually assess the relationship, patterns, and outliers.
+Interpretation:
+Strong correlation: Critical acclaim and box office success might be related.
+Weak or no correlation: Other factors (e.g., marketing, star power) could influence a movie's earnings more than its rating.
+Handling Outliers:
+
+If rating and gross are strongly correlated, outliers in gross might be justified by their ratings.
+If correlation is weak, consider analyzing outliers separately to understand the factors behind their high earnings.
+Further Analysis Guidance: Depending on the correlation strength, investigate other contributing factors to a movie's success, holding its rating constant.
