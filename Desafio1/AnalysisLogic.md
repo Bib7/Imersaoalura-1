@@ -30,10 +30,10 @@ Here's a drill-through of what's the method I'm going to use to analyze the foll
 
 ### Visualizations:
 
-- [ ] Histograms for IMDB_Rating, Meta_score, No_of_Votes, and Gross to understand the distribution.
-- [ ] Box plots for IMDB_Rating and Meta_score to identify outliers and understand spread.
-- [ ] Bar charts for most frequent categories in Certificate, Genre, and Director.
-- [ ] Scatter plot between IMDB_Rating and Meta_score to see if there's any correlation between the two scores.
+- [x] Histograms for IMDB_Rating, Meta_score, No_of_Votes, and Gross to understand the distribution.
+- [x] Box plots for IMDB_Rating and Meta_score to identify outliers and understand spread.
+- [x] Bar charts for most frequent categories in Certificate, Genre, and Director.
+- [x] Scatter plot between IMDB_Rating and No_of_Votes to see if there's any correlation between the two columns.
 
 ### Temporal Analysis:
 
@@ -51,16 +51,12 @@ Here's a drill-through of what's the method I'm going to use to analyze the foll
 
 ### Correlations:
 
-- [ ] Check for correlation between numerical columns like IMDB_Rating, Meta_score, No_of_Votes, and Gross.
-- [ ] Text Analysis (if applicable):
+- [x] Check correlation between Gross x High Rated Films, No_of_Votes and Rating.
 
 ### Outlier Identification:
 - [ ] Use descriptive statistics and visualizations to identify and investigate outliers, especially in columns like IMDB_Rating, Meta_score, and Gross.
 
 ### UPDATES & IN-FOLLOW UP
 
-### Investigating Correlation Between IMDB Rating and Gross Earnings:
-
-Objective: Understand if highly rated movies also tend to earn more at the box office.
-
-Context: The dataset focuses on the "Top 1000 IMDB Movies by IMDB Rating," implying a rating-based ranking. Investigate how this rating correlates with financial success.
+More than 10% from Meta_Score data are null, probably that data couldn't be retrieved. Changed correlations and descriptive analysis over to others columns;
+Gross data has the same issue... So we need to complement those '0 gross' rows to evaluate some proper correlations
